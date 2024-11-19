@@ -16,17 +16,23 @@
 
 Training accuracy reached 95.13%, showing strong learning capacity.
 Validation accuracy plateaued at ~87.81% after epoch 2, signaling overfitting.
-Loss:
+
+##### Loss:
 Training loss decreased consistently, from 0.46 to 0.13.
 Validation loss increased after epoch 2, further highlighting overfitting.
-Graphs
-Model Loss (First Graph):
+
+#### bGraphs
+
+#### Model Loss (First Graph):
+
 Training loss steadily decreases as the model learns the data.
 Validation loss increases after epoch 2, showing the model struggles to generalize.
-Model Accuracy (Second Graph):
+
+#### Model Accuracy (Second Graph):
 Training accuracy increases with each epoch, reaching ~95%.
 Validation accuracy plateaus at ~87%, diverging from training accuracy, confirming overfitting.
-Conclusion
+
+### Conclusion
 The model performs well on the training data but shows limited generalization to the validation set due to overfitting.
 Next Steps:
 Implement regularization (Dropout, L2) or early stopping (after epoch 2) to mitigate overfitting.
